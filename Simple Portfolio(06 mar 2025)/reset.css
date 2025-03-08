@@ -1,0 +1,52 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reset heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+/* Reset list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Reset links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset form elements */
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Ensure images don't exceed container width */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reset tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

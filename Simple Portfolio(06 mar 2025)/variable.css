@@ -1,0 +1,12 @@
+:root {
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --image-gap: 1vw;
+    --image-height: 56vmin;
+    --image-width: 40vmin;
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }

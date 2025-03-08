@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400vh;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.image-wrapper {
+    display: flex;
+    gap: var(--image-gap);
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.image-wrapper::before,
+.image-wrapper::after {
+    content: "";
+    width: calc(50vw - calc(var(--image-width)/2) - var(--image-gap));
+    flex-shrink: 0;
+}
+
+.image {
+    width: var(--image-width);
+    height: var(--image-height);
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+a {
+    display: contents;
+}
